@@ -10,11 +10,14 @@ commits = open("commits.txt","r")
 line  = commits.readline()
 line = line[:-1]
 
-credentials = open("credentials","r")
-username = credentials.readline()       # Github username
-username = username[:-1]
-password = credentials.readline()       # Github password
-password = password[:-1]
+#credentials = open("credentials","r")
+#username = credentials.readline()       # Github username
+#username = username[:-1]
+#password = credentials.readline()       # Github password
+#password = password[:-1]
+
+username="musale"
+password="21840000"
 
 if line != commit_message:
     commits = open("commits.txt","w")
