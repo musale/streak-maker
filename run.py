@@ -17,7 +17,7 @@ line = line[:-1]
 #password = password[:-1]
 
 username="musale"
-password="21840000"
+password="musale2184"
 
 if line != commit_message:
     commits = open("commits.txt","w")
